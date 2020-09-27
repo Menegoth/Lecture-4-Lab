@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Canvas HorizontalAlignment="Center" Height="419" VerticalAlignment="Center" Width="792"/>
+        <Canvas Name="fineCanvas"  HorizontalAlignment="Center" Height="419" VerticalAlignment="Center" Width="792"/>
         <TextBox x:Name="speedTextBox" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" Margin="-250,-50,0,0"/>
         <TextBox x:Name="limitTextBox" HorizontalAlignment="Center" Height="23" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" Margin="250,-50,0,0"/>
         <Label x:Name="speedLabel" Content="Speed (MPH)" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-250,-150,0,0"/>
